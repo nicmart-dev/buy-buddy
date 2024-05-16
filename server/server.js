@@ -14,6 +14,7 @@ app.use(cors()); // allow cross-origin requests
 
 app.use(apiRoutes); // use apiRoutes as a middleware
 
-app.listen(5050, () => {
-  console.log(`Server is running at http://localhost:5050`);
+app.listen(PORT, () => {
+  console.log(`Server is running at http://localhost:${PORT}`);
 });
+
