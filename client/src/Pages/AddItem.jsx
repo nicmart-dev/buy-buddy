@@ -16,18 +16,24 @@ export default function AddItem() {
   async function handleSubmit(event) {
     event.preventDefault();
     const form = event.target;
+    console.log(form.name.value);
     async function postItem() {
       try {
-        const response = await axios.post("http://localhoste:5050/", {
-          name: form.name,
-          quantity: form.quantity,
-        });
+        const response = await axios.post(
+          "http://localhost:5050/shopping-list",
+          {
+            name: form.name.value,
+            quantity: form.quantity.value,
+          }
+        );
         console.log(response.data);
       } catch (error) {
         console.log(error);
       }
     }
     postItem();
+    setItem("");
+    setQuantity("");
   }
   return (
     <div className="page">
