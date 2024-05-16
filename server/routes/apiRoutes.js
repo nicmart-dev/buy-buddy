@@ -8,8 +8,8 @@ router.get("/", (req, res) => {
 });
 
 router.get("/shopping-list", (req, res) => {
-    const movies = fs.readFileSync("./data/shopping-list.json");
-    res.send(JSON.parse(movies));
+    const shoppingList = fs.readFileSync("./data/shopping-list.json");
+    res.send(JSON.parse(shoppingList));
 });
 
 
