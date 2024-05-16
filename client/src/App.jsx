@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.scss';
 
 function App() {
+
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -13,11 +15,9 @@ function App() {
 
         <h2 className="list__subtitle">all shopping items</h2>
         <ul className="list__items">
-          <li>Placeholder</li>
-          <li>Placeholder</li>
-          <li>Placeholder</li>
-          <li>Placeholder</li>
-          <li>Placeholder</li>
+          <li>Placeholder <button className="list__delete">delete</button></li>
+          <li>Placeholder <button className="list__delete">delete</button></li>
+          <li>Placeholder <button className="list__delete">delete</button></li>
          
         </ul>
 
