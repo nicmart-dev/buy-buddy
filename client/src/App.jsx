@@ -1,5 +1,19 @@
-import logo from './logo.svg';
+
+import axios from "axios";
 import './App.scss';
+
+
+const url = "http://localhost:5050/";
+
+const getAllShoppingItmes = async (setShoppingItems) => {
+  try {
+  const response = await axios.get({url});
+  setShoppingItems(response.data);
+}catch (error) {
+  console.error("Error getting all shopping items", error);
+}
+};
+
 
 function App() {
 
