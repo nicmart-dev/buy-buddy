@@ -1,102 +1,58 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  
-  body { 
-    margin: 0;
-    color: rgb(81, 81, 81);
-  }
-
-  h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
 }
 
-
-// .welcome {
-//     width: 380px;
-//     margin: auto;
-//     &__header {
-//         font-size: 1.5rem;
-//         text-align: center;
-//         margin: 2rem;
-//         padding: 1rem;
-//         text-transform: uppercase;
-//     }
-//   }
-  
-.list__items {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    padding: 0;
-  }
-
-  
-.button {
-    padding: 0.8rem 2rem;
-    font-size: 1.2rem;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    width: fit-content;
-    &:hover {
-        background-color: aquamarine;
-        color: black;
-    }
-    &--delete {
-        padding: 0.3rem 1rem;
-    }
+body {
+  background-color: white;
 }
 
 .list {
-  
-    &__container {
-      margin-left:3rem;
-    }
-  
-    &__title{
-      padding-top:1rem;
-      font-size:2rem;
-      padding-bottom:1rem;
-      margin-left:2rem;
-    }
-  
-    &__subtitle {
-      padding-top: 1rem;
-      font-size:2rem;
-      margin-left:3rem;
-      margin-bottom:3rem;
-    }
-  
-  
-    &__items {
-      margin-left:6rem;
-      list-style: none;
-      padding-top:1rem;
-      padding-bottom: 1rem;
-    }
-  
-    &__button {
-      background-color:black;
-      color: white;
-      font-weight:bold;
-      font-size:1.2rem;
-      padding: 1rem;
-      margin-left:6rem;
-      border:none;
-    }
-  
-    &__delete {
-      // display: none;
-      background-color:black;
-      color: white;
-      font-weight:bold;
-      font-size:1.2rem;
-      padding: 0.5rem;
-      margin-bottom:0.5rem;
-      margin-left:2rem;
-    }
-  
+  &__container {
+    margin-left: 3rem;
   }
+
+  &__title {
+    padding-top: 1rem;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    margin-left: 2rem;
+  }
+
+  &__subtitle {
+    padding-top: 1rem;
+    font-size: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  &__items {
+    margin-left: 6rem;
+    list-style: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  &__button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin-left: 6rem;
+    border: none;
+  }
+
+  &__delete {
+    // display: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+  }
+}
