@@ -1,77 +1,77 @@
 [
-    {
-        "id": "b3b71b4a-5e19-4d98-b091-8451f69e2e71",
-        "name": "Apples",
-        "quantity": 6
-    },
-    {
-        "id": "c1a2c1b2-834b-45b7-8c1d-1e8fffcbbf90",
-        "name": "Bananas",
-        "quantity": 12
-    },
-    {
-        "id": "fa2d2b28-573c-45d4-9138-94586e329cc6",
-        "name": "Bread",
-        "quantity": 2
-    },
-    {
-        "id": "a17b6b69-8c5d-44d7-b79b-091f3457f3e2",
-        "name": "Milk",
-        "quantity": 1
-    },
-    {
-        "id": "d927eb1f-b3b4-49d5-91bb-7e8adf37a5e8",
-        "name": "Eggs",
-        "quantity": 12
-    },
-    {
-        "id": "a82c2b6e-5f17-462e-98b1-3128eec6b001",
-        "name": "Chicken Breast",
-        "quantity": 4
-    },
-    {
-        "id": "f72697b9-bb1c-43a9-84ec-d6a8d39e073b",
-        "name": "Carrots",
-        "quantity": 1
-    },
-    {
-        "id": "f02c2b68-1c51-45a8-844c-71a47f3e08b9",
-        "name": "Potatoes",
-        "quantity": 5
-    },
-    {
-        "id": "fc7e99b7-4f51-4538-9953-9728c20d0671",
-        "name": "Orange Juice",
-        "quantity": 2
-    },
-    {
-        "id": "f2d7b2c5-3b7f-409c-b8e1-7a2e2f3e047c",
-        "name": "Butter",
-        "quantity": 1
-    },
-    {
-        "id": "f2e8a1b4-7c3a-4b7a-b8e5-6a2e8f3b007d",
-        "name": "Cheese",
-        "quantity": 1
-    },
-    {
-        "id": "f3e9b4d5-8c5a-4b7b-917e-8a2e9f3b015e",
-        "name": "Tomatoes",
-        "quantity": 6
-    },
-    {
-        "id": "f4e9c6d7-9c6b-4b8b-918f-8b2e9f3b016f",
-        "name": "Spaghetti",
-        "quantity": 1
-    },
-    {
-        "id": "f5f9d8e7-ac7b-4b8c-928f-8c3e0f3b0170",
-        "name": "Ground Beef",
-        "quantity": 2
-    },
-    {
-        "id": "f6f9d9e8-bc8c-4c9c-938f-8d3e1f3b0181",
-        "name": "Olive Oil",
-        "quantity": 1
-    }
+  {
+    "id": "b3b71b4a-5e19-4d98-b091-8451f69e2e71",
+    "name": "Apples",
+    "quantity": 6
+  },
+  {
+    "id": "c1a2c1b2-834b-45b7-8c1d-1e8fffcbbf90",
+    "name": "Bananas",
+    "quantity": 12
+  },
+  {
+    "id": "fa2d2b28-573c-45d4-9138-94586e329cc6",
+    "name": "Bread",
+    "quantity": 2
+  },
+  {
+    "id": "a17b6b69-8c5d-44d7-b79b-091f3457f3e2",
+    "name": "Milk",
+    "quantity": 1
+  },
+  {
+    "id": "d927eb1f-b3b4-49d5-91bb-7e8adf37a5e8",
+    "name": "Eggs",
+    "quantity": 12
+  },
+  {
+    "id": "a82c2b6e-5f17-462e-98b1-3128eec6b001",
+    "name": "Chicken Breast",
+    "quantity": 4
+  },
+  {
+    "id": "f72697b9-bb1c-43a9-84ec-d6a8d39e073b",
+    "name": "Carrots",
+    "quantity": 1
+  },
+  {
+    "id": "f02c2b68-1c51-45a8-844c-71a47f3e08b9",
+    "name": "Potatoes",
+    "quantity": 5
+  },
+  {
+    "id": "fc7e99b7-4f51-4538-9953-9728c20d0671",
+    "name": "Orange Juice",
+    "quantity": 2
+  },
+  {
+    "id": "f2d7b2c5-3b7f-409c-b8e1-7a2e2f3e047c",
+    "name": "Butter",
+    "quantity": 1
+  },
+  {
+    "id": "f2e8a1b4-7c3a-4b7a-b8e5-6a2e8f3b007d",
+    "name": "Cheese",
+    "quantity": 1
+  },
+  {
+    "id": "f3e9b4d5-8c5a-4b7b-917e-8a2e9f3b015e",
+    "name": "Tomatoes",
+    "quantity": 6
+  },
+  {
+    "id": "f4e9c6d7-9c6b-4b8b-918f-8b2e9f3b016f",
+    "name": "Spaghetti",
+    "quantity": 1
+  },
+  {
+    "id": "f5f9d8e7-ac7b-4b8c-928f-8c3e0f3b0170",
+    "name": "Ground Beef",
+    "quantity": 2
+  },
+  {
+    "id": "f6f9d9e8-bc8c-4c9c-938f-8d3e1f3b0181",
+    "name": "Olive Oil",
+    "quantity": 1
+  }
 ]

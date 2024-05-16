@@ -18,7 +18,7 @@ router.post("/shopping-list", (req, res) => {
             quantity: req.body.quantity
         };
         shoppingList.push(newItem);
-        fs.writeFileSync("./data/shopping-list.json");
+        fs.writeFileSync("./data/shopping-list.json", JSON.stringify(shoppingList, null, 2));
         res.json({
             message: "Item added to shopping list successfully",
             item: newItem
