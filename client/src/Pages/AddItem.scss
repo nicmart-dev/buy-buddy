@@ -1,0 +1,59 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: rgb(81, 81, 81);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+.page {
+    width: 380px;
+    margin: auto;
+}
+
+.page-heading {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.5rem auto;
+    width: 300px;
+    &__label {
+        font-size: 1.2rem;
+        align-self: start;
+
+    }
+    &__input {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        width: 100%;
+    }
+}
+
+.button {
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+    &:hover {
+        background-color: aquamarine;
+        color: black;
+    }
+}
