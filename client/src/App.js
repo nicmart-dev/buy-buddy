@@ -1,16 +1,17 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-       
-       <h1> Testing  - Grace is here. lalalala</h1>
-      
       
       </header>
+
+      <div className ="list__container">
+        <h1 className ="list__wrapper">Welcme to BuyBuddy</h1>
+
+      </div>
     </div>
   );
 }
