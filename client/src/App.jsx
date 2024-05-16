@@ -1,21 +1,28 @@
-
+import { useState, useEffect } from 'react';
 import axios from "axios";
 import './App.scss';
 
-
-const url = "http://localhost:5050/";
-
-const getAllShoppingItmes = async (setShoppingItems) => {
-  try {
-  const response = await axios.get({url});
-  setShoppingItems(response.data);
-}catch (error) {
-  console.error("Error getting all shopping items", error);
-}
-};
-
-
 function App() {
+  const [shoppingList, setShoppingList] = useState([]);
+
+
+const url = "http://localhost:5050";
+
+
+
+useEffect(() => {
+const getShoppingList = async () => {
+
+  const response = await axios.get(
+    `${url}/shopping-list`
+  );
+  setShoppingList(response.data);
+};
+getShoppingList();
+}, []);
+
+
+
 
   
   return (
@@ -29,10 +36,13 @@ function App() {
 
         <h2 className="list__subtitle">all shopping items</h2>
         <ul className="list__items">
-          <li>Placeholder <button className="list__delete">delete</button></li>
-          <li>Placeholder <button className="list__delete">delete</button></li>
-          <li>Placeholder <button className="list__delete">delete</button></li>
+        {shoppingList
+        .map((item) => (
+          <li key={item.id}>
+          <h5> {item.quantity} x {item.name} </h5>
          
+          </li>
+        ))}
         </ul>
 
         <button className="list__button">add shopping item</button>
