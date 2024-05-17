@@ -21,7 +21,12 @@ Done as part of BrainStation Pair Programming hackaton over 4h as a team of 4 pe
 Pair-Programming Project Requirements 
 - Must be a React Application
 - Must use an API: Can use your own (Express Server), recommended, Or One you source
-- Should use Git Flow for collaboration 
+- Should use Git Flow for collaboration
+
+# How it looks
+
+<img width="232" alt="image" src="https://github.com/nicmart-dev/buy-buddy/assets/10499747/30504708-4eaf-44a2-9d66-9eee432cbce3">
+
 
 
 
